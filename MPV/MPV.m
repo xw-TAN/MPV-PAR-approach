@@ -4,9 +4,9 @@
 % *input
 %   - data
 %   Input struct contains:
-%        ©À©¤©¤ *****/     # Initial-point-specific stride data (vector)
-%        	©À©¤©¤ time/	# Time of a complete stride (begin with zero)
-%        	©¸©¤©¤ data/	# Global thigh angle corresponds to that stride
+%        --- *****/     # Initial-point-specific stride data (vector)
+%        	--- time/	# Time of a complete stride (begin with zero)
+%        	--- data/	# Global thigh angle corresponds to that stride
 %
 % *output
 %   percent accuracy and confidence index (NOT CORRECTNESS INDEX)
