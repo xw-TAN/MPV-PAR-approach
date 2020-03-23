@@ -5,9 +5,9 @@
 %   - upStairs
 %   - downStairs
 %   Input struct contains:
-%        ©À©¤©¤ *****/     # Types of activity
-%        	©À©¤©¤ time/	# Time of a complete stride (begin with zero)
-%        	©¸©¤©¤ data/	# Global thigh angle corresponds to that stride
+%        å¿µå²¸å²¸ *****/     # Types of activity
+%        	å¿µå²¸å²¸ time/	# Time of a complete stride (begin with zero)
+%        	å¼©å²¸å²¸ data/	# Global thigh angle corresponds to that stride
 %   NOTE: If creating exemplar dataset for MPV method, the strides data
 %   should be divided with specific initial point (minimal global thigh
 %   angle in here).
@@ -17,13 +17,13 @@
 %   - PUpDataset
 %   - PDownDataset
 %   Output struct contains:
-%        ©À©¤©¤ *****/         # Types of activity
-%           ©À©¤©¤ *BaseAngle/	# Initial angle of exemplar phase curves
-%           ©À©¤©¤ pValue/     # Normalized progession value of points
-%           ©À©¤©¤ PhaseAngle/	# Angle of points with respect to initial line
-%           ©À©¤©¤ pPoint/     # X and Y coordinates of each point at curves
-%           ©À©¤©¤ *Origin/	# Coordinates of the centroid
-%           ©¸©¤©¤ *Range/     # Value range of X and Y
+%        --- *****/         # Types of activity
+%           --- *BaseAngle/	# Initial angle of exemplar phase curves
+%           --- pValue/     # Normalized progession value of points
+%           --- PhaseAngle/	# Angle of points with respect to initial line
+%           --- pPoint/     # X and Y coordinates of each point at curves
+%           --- *Origin/	# Coordinates of the centroid
+%           --- *Range/     # Value range of X and Y
 % -------------------------------------------------------------------------
 
 clear;
@@ -143,7 +143,7 @@ plot(Down,yDown, 'b', 'linewidth', 6);
 hl(3) = plot(xbDown,ybDown, 'b.', 'markersize', 30);
 
 % complete the figure for phase curves
-ylabel('y (deg¡¤s)','FontWeight','bold','Fontsize',25);
+ylabel('y (degï¹žs)','FontWeight','bold','Fontsize',25);
 xlabel('x (deg)','FontWeight','bold','Fontsize',25);
 title('Phase Space','FontWeight','bold','Fontsize',20);
 axis([-15, 50, -8, 13]);
@@ -163,7 +163,7 @@ yWalkNew = yWalk - ybWalk;
 
 figure('Name', 'NewCoordinateWalk'); hold on;
 % axis equal
-ylabel('y (deg¡¤s)','FontWeight','bold','Fontsize',25);
+ylabel('y (degï¹žs)','FontWeight','bold','Fontsize',25);
 xlabel('x (deg)','FontWeight','bold','Fontsize',25);
 title('Phase Space','FontWeight','bold','Fontsize',20);
 set(gca,'FontSize',25,'FontWeight','bold','Fontsize',20,...
@@ -186,7 +186,7 @@ yUpNew = yUp - ybUp;
 
 figure('Name', 'NewCoordinateUp'); hold on;
 % axis equal
-ylabel('y (deg¡¤s)','FontWeight','bold','Fontsize',25);
+ylabel('y (degï¹žs)','FontWeight','bold','Fontsize',25);
 xlabel('x (deg)','FontWeight','bold','Fontsize',25);
 title('Phase Space','FontWeight','bold','Fontsize',20);
 set(gca,'FontSize',25,'FontWeight','bold','Fontsize',20,...
@@ -209,7 +209,7 @@ yDownNew = yDown - ybDown;
 
 figure('Name', 'NewCoordinateDown'); hold on;
 % axis equal
-ylabel('y (deg¡¤s)','FontWeight','bold','Fontsize',25);
+ylabel('y (degï¹žs)','FontWeight','bold','Fontsize',25);
 xlabel('x (deg)','FontWeight','bold','Fontsize',25);
 title('Phase Space','FontWeight','bold','Fontsize',20);
 set(gca,'FontSize',25,'FontWeight','bold','Fontsize',20,...
