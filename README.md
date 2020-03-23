@@ -24,5 +24,5 @@ Detailed explanation for MPV method will be found when our paper has been accept
   
 - Folder "PV"
   
-  This folder contains the script for PV method and associated functions which are coded by ourselves. Description for this folder can refer to above, and the usage can be found in each scripts' code annotations.
+  This folder contains the script for PV method and associated functions which are coded by ourselves. Description for this folder can refer to above, and the usage of each script can be found in code annotation section.
   
