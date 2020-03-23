@@ -4,9 +4,9 @@
 % *input
 %   - data
 %   Input struct contains:
-%        ©À©¤©¤ *****/     # Stride data needed to be recognized (vector)
-%        	©À©¤©¤ time/	# Time of a complete stride (begin with zero)
-%        	©¸©¤©¤ data/	# Global thigh angle corresponds to that stride
+%        --- *****/     # Stride data needed to be recognized (vector)
+%        	--- time/	# Time of a complete stride (begin with zero)
+%        	--- data/	# Global thigh angle corresponds to that stride
 % *output
 %   percent accuracy
 %   # number of correctly classified activities / total number of activities
