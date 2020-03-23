@@ -28,20 +28,32 @@ Detailed explanation for MPV method will be found when our paper has been accept
   
 # Datasets
 
-All datasets are available [HERE(Raw-Datasets)] and [HERE(Datasets)](https://drive.google.com/file/d/1CpJeLDZyIwGwURNUzSBTFcWbvt5LNOjE/view?usp=sharing).
+All datasets are available [HERE for Raw-Datasets] and [HERE for Datasets](https://drive.google.com/file/d/1CpJeLDZyIwGwURNUzSBTFcWbvt5LNOjE/view?usp=sharing).
 
 NOTE: 
   
   - "Raw-Datasets" contains all unprocessed information measured by total six IMUs, including orientations and joint angles that are computed with built-in algorithm in MR3.14 software (Noraxon USA Inc., USA). 
   
-  - "Datasets" only includes bilateral global thigh angle (thigh angle with respect to the vertical) and corresponding time instant. Further, global thigh angles for stair ascent and stair descent have also been separated from one timeline/file (since these two activities are performed at a same bout through walking upstairs and downstairs repeatly ).
+  - "Datasets" only includes bilateral global thigh angle (thigh angle with respect to the vertical) and corresponding time instant. Further, global thigh angles for stair ascent and stair descent have also been separated from one timeline/file (since these two activities are performed at one bout through walking upstairs and downstairs repeatly ).
 
 ## Dataset Description
 
 Eight healthy subjects (Male, age=24.9±1.56 yr, height=1.75±0.06 m) were required to perform level walk, stair ascent, and stair descent activities for about 6min at two cadences: 70 steps/min and 110 steps/min, and in the meantime, lower limb kinematics were measured using IMUs (200Hz, myoMOTION, Noraxon USA Inc., USA) attached on bilateral thigh, shank, and foot.
 
+NOTE AGAIN: Stair ascent and stair descent were performed alternately and repeatly until enough datasets have been collected.
+
 ## Hierarchy in "Raw-Datasets.zip" file
 
+```
+  ├── PhaseVariableData/
+    ├── S1/     # 1st subject
+      ├── TIME_levelwalk-70/    # raw datasets for level walk activity performed at 70 steps/min
+      ├── TIME_levelwalk-110/ 
+      ├── TIME_stair-70/        # raw datasets for stair ascent and stair descent activities 
+      └── TIME_stair-110/
+    │...
+    └── S8/
+```
 
 ## Hierarchy in "Datasets.zip" file
 
