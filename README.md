@@ -73,6 +73,6 @@ NOTE AGAIN: Stair ascent and stair descent were performed alternately and repeat
 ```
 
 ## How to cite
-If you have employed our datasets in your research, please cite the followings:
+If you have employed our datasets or customized in your research, please cite the followings:
 
 (to be updated)
