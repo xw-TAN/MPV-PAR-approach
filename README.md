@@ -34,7 +34,7 @@ NOTE:
   
   - "Raw-Datasets" contains all unprocessed information measured by total six IMUs, including orientations and joint angles that are computed with built-in algorithm in MR3.14 software (Noraxon USA Inc., USA). 
   
-  - "Datasets" only includes bilateral global thigh angle (thigh angle with respect to the vertical) and corresponding time instant. Further, global thigh angles for stair ascent and stair descent have also been separated from one timeline/file (since these two activities are performed at one bout through walking upstairs and downstairs repeatly ).
+  - "Datasets" only includes bilateral global thigh angle (thigh angle with respect to the vertical) and corresponding time instant. Further, global thigh angles for stair ascent and stair descent have also been separated from one timeline/file (Since these two activities are performed alternately and repeatly, extra effort is needed to separate them into two files).
 
 ## Dataset Description
 
