@@ -20,9 +20,14 @@ Detailed explanation for MPV method will be found when our paper has been accept
  
   1. `MPV.m`, main script to implement MPV method with selectable example data "Example_100Strides_S4_LW_110SM.mat", "Example_100Strides_S4_SA_110SM.mat", and "Example_100Strides_S4_SD_110SM.mat".
   2. `Getdt.m`, `Getp.m`, `Getm.m`, `GetWindowsRMS.m`, and `FindSmaller.m` are customized functions that will be called in `MPV.m` script.
-  3. Example data mentioned above are 100 strides at cadence of 110 steps/min for level walk, stair ascent, and stair descent, respectively (S4 means the fourth participant, and all eight-subject datasets generated at two different cadences: 70 steps/min and 110 steps/min, for the three activities can be found in another repositary "Global-Thigh-Angle-Datasets").
+  3. Example data mentioned above are 100 strides at cadence of 110 steps/min for level walk, stair ascent, and stair descent, respectively (S4 means the fourth participant).
   
 - Folder "PV"
   
   This folder contains the script for PV method and associated functions which are coded by ourselves. Description for this folder can refer to above, and the usage of each script can be found in code annotation section.
   
+# Datasets
+
+All eight-subject datasets datasets are available [HERE](https://drive.google.com/file/d/1CpJeLDZyIwGwURNUzSBTFcWbvt5LNOjE/view?usp=sharing)
+
+generated at two different cadences: 70 steps/min and 110 steps/min, for the three activities can be found in another repositary "Global-Thigh-Angle-Datasets"
