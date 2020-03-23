@@ -5,9 +5,9 @@
 %   - upStairs
 %   - downStairs
 %   Input struct contains:
-%        念岸岸 *****/     # Types of activity
-%        	念岸岸 time/	# Time of a complete stride (begin with zero)
-%        	弩岸岸 data/	# Global thigh angle corresponds to that stride
+%        --- *****/     # Types of activity
+%        	--- time/	# Time of a complete stride (begin with zero)
+%        	--- data/	# Global thigh angle corresponds to that stride
 %   NOTE: If creating exemplar dataset for MPV method, the strides data
 %   should be divided with specific initial point (minimal global thigh
 %   angle in here).
