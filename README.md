@@ -12,7 +12,7 @@ Detailed explanation for MPV method will be found when our paper has been accept
   Script should be used firstly to generate template phase curve and its associated data, such as X and Y coordinates and progression value.
   
   1. Example data "Example_Cross_S4.mat" are also provided to run this script.
-  2. Data "ExampleResult_MPV.mat" and "ExampleResult_PV.mat" are example result created by this script, and these two dataset will be used as template/exemplar dataset in `MPV.m` and `PV.m` respectively.
+  2. Data "ExampleResult_MPV.mat" and "ExampleResult_PV.mat" are example result created by this script, and these two datasets will be used as template/exemplar datasets in `MPV.m` and `PV.m` scripts respectively.
   
 - Folder "MPV"
   
