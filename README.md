@@ -13,6 +13,7 @@ Detailed explanation for MPV method will be found when our paper has been accept
   2. Data "ExampleResult_MPV.mat" and "ExampleResult_PV.mat" are example result created by this script.
   
 - Folder "MPV"
+  
   This folder contains the script of MPV method and some associated customized functions.
  
   1. `MPV.m`, main script to implement MPV method with selectable example data "Example_100Strides_S4_LW_110SM.mat", "Example_100Strides_S4_SA_110SM.mat", and "Example_100Strides_S4_SD_110SM.mat".
@@ -20,5 +21,6 @@ Detailed explanation for MPV method will be found when our paper has been accept
   3. Example data mentioned in above are 100 strides at cadence of 110 steps/min for level walk, stair ascent, and stair descent respectively (S4 means the fourth participant).
   
 - Folder "PV"
+  
   This folder contains the script for PV method and associated functions which are coded by ourselves. Description for this folder can refer to above, and the usage can be found in each scripts' code annotations.
   
