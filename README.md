@@ -8,6 +8,7 @@ Detailed explanation for MPV method will be found when our paper has been accept
 
 # Matlab Scripts
 - `generateExemplarPhaseCurves.m`
+  
   Script should be used firstly to generate template phase curve and its associated data, such as X and Y coordinates and progression.
   
   1. Example data "Example_Cross_S4.mat" are also provided to run this script.
