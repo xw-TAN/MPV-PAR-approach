@@ -1,5 +1,5 @@
 # MPV-PAR-approach
-MPV (Modified Phase-Variable-Based) PAR (Physical Activity Recognition) approach is an extension or modification to original PV (Phase-Variable) method, and can be used to classify level walk, stair ascent and stair descent activities.
+MPV (Modified Phase-Variable-Based) PAR (Physical Activity Recognition) approach is an extension or modification to original PV (Phase-Variable) method, and can be used to classify level walk, stair ascent, and stair descent activities.
 
 # Introduction
 This repositary contains Matlab scripts for a method used to classify three types of human physical activities, termed as MPV. MPV is an extension or modification version for original PV method (proposed paper title "A Phase Variable Approach for IMU-Based Locomotion Activity Recognition") which has also been coded in Matlab by ourselves and uploaded into this repositary. Needing to note here is that the coded PV script is NOT provided by the original paper. Although we try hard to replicate the original PV method with Matlab, there may be some small details we have not yet found and coded.
@@ -11,7 +11,7 @@ Detailed explanation for MPV method will be found when our paper has been accept
   
   Script should be used firstly to generate template phase curve and its associated data, such as X and Y coordinates and progression value.
   
-  1. Example data "Example_Cross_S4.mat" are also provided to run this script.
+  1. Example data "Example_Cross_S4.mat" are also provided to test this script.
   2. Data "ExampleResult_MPV.mat" and "ExampleResult_PV.mat" are example result created by this script, and these two datasets will be used as template/exemplar datasets in `MPV.m` and `PV.m` scripts respectively.
   
 - Folder "MPV"
@@ -19,8 +19,8 @@ Detailed explanation for MPV method will be found when our paper has been accept
   This folder contains the script of MPV method and some associated customized functions.
  
   1. `MPV.m`, main script to implement MPV method with selectable example data "Example_100Strides_S4_LW_110SM.mat", "Example_100Strides_S4_SA_110SM.mat", and "Example_100Strides_S4_SD_110SM.mat".
-  2. `Getdt.m`, `Getp.m`, `Getm.m`, `GetWindowsRMS.m`, and `FindSmaller.m` are customized functions that will be called in `MPV.m` script.
-  3. Example data mentioned above are 100 strides at cadence of 110 steps/min for level walk, stair ascent, and stair descent, respectively (S4 means the fourth participant).
+  2. `Getdt.m`, `Getp.m`, `Getm.m`, `GetWindowsRMS.m`, and `FindSmaller.m` are customized functions that are called in `MPV.m` script, and detailed usage of them can be found in their code annotation section.
+  3. Example data mentioned above are 100 strides at cadence of 110 steps/min for level walk, stair ascent, and stair descent, respectively (S4 means the 4th participant).
   
 - Folder "PV"
   
@@ -34,7 +34,7 @@ NOTE:
   
   - "Raw-Datasets" contains all unprocessed information measured by total six IMUs, including orientations and joint angles that are computed with built-in algorithm in MR3.14 software (Noraxon USA Inc., USA). 
   
-  - "Datasets" only includes bilateral global thigh angle (thigh angle with respect to the vertical) and corresponding time instant. Further, global thigh angles for stair ascent and stair descent have also been separated from one timeline/file (Since these two activities are performed alternately and repeatly, extra effort is needed to separate them into two files).
+  - "Datasets" only includes bilateral global thigh angle (thigh angle with respect to the vertical) and corresponding time instant. Further, global thigh angles for stair ascent and stair descent have also been separated from their timeline/file (Since these two activities are performed alternately, extra effort is needed to separate them into two files in order to classify them individually).
 
 ## Dataset Description
 
