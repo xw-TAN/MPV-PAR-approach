@@ -28,6 +28,10 @@ Detailed explanation for MPV method will be found when our paper has been accept
   
 # Datasets
 
-All eight-subject datasets datasets are available [HERE](https://drive.google.com/file/d/1CpJeLDZyIwGwURNUzSBTFcWbvt5LNOjE/view?usp=sharing)
+All datasets are available [HERE](https://drive.google.com/file/d/1CpJeLDZyIwGwURNUzSBTFcWbvt5LNOjE/view?usp=sharing).
+
+## Dataset Description
+
+Eight healthy subjects (Male, age=24.9±1.56 yr, height=1.75±0.06 m) were required to perform level walk, stair ascent, and stair descent activities for about 6min at two cadences: 70 steps/min and 110 steps/min, and in the meantime, lower limb kinematics were measured using IMUs (200Hz, myoMOTION, Noraxon USA Inc., USA) attached on bilateral thigh, shank, and foot.
 
 generated at two different cadences: 70 steps/min and 110 steps/min, for the three activities can be found in another repositary "Global-Thigh-Angle-Datasets"
