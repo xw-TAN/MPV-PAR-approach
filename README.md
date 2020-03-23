@@ -36,11 +36,17 @@ Eight healthy subjects (Male, age=24.9±1.56 yr, height=1.75±0.06 m) were requi
 
 ## Hierarchy in "Datasets.zip" file
   ├── Datasets/
+  
     ├── LevelWalking/   # datasets for level walking activity
+    
     │  ├── Cadence70/   # activities performed at 70 steps/min
+    
     │  │  ├── S1/       # 1st subject
+    
     │  │  │  ├── RawData/ 
+    
     │  │  │    ├── left/  # data extracted from the left-side lower limb
+    
     │  │  │    └── right/
     │  │  │...
     │  │  └── S8/
