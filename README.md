@@ -34,7 +34,8 @@ All datasets are available [HERE](https://drive.google.com/file/d/1CpJeLDZyIwGwU
 
 Eight healthy subjects (Male, age=24.9±1.56 yr, height=1.75±0.06 m) were required to perform level walk, stair ascent, and stair descent activities for about 6min at two cadences: 70 steps/min and 110 steps/min, and in the meantime, lower limb kinematics were measured using IMUs (200Hz, myoMOTION, Noraxon USA Inc., USA) attached on bilateral thigh, shank, and foot.
 
-## 
+## Structure of "Datasets.zip" file
+
 
 ## How to cite
 If you have employed our datasets in your research, please cite the followings:
