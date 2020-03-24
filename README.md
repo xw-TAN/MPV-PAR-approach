@@ -28,7 +28,7 @@ Detailed explanation for MPV method will be found when our paper has been accept
   
 # Datasets
 
-All datasets are available [HERE for Raw-Datasets] and [HERE for Datasets](https://drive.google.com/file/d/1CpJeLDZyIwGwURNUzSBTFcWbvt5LNOjE/view?usp=sharing).
+All datasets are available ([HERE for Raw-Datasets](https://drive.google.com/open?id=1TSGyto2SeSBxiyjZjRYDzhBLzLk71SQG), [HERE for Datasets](https://drive.google.com/open?id=1uGkIpLEv3mIu6hdTpToh08kJxsypiW8N)).
 
 NOTE: 
   
@@ -62,9 +62,8 @@ NOTE AGAIN: Stair ascent and stair descent were performed alternately and repeat
     ├── LevelWalking/   # datasets for level walking activity
     │  ├── Cadence70/   # activities performed at 70 steps/min
     │  │  ├── S1/       # 1st subject
-    │  │  │  ├── RawData/  
-    │  │  │    ├── left/  # data extracted from the left-side lower limb
-    │  │  │    └── right/
+    │  │  │  ├── left/  # data extracted from the left-side lower limb
+    │  │  │  └── right/
     │  │  │...
     │  │  └── S8/
     │  └── Cadence110/
