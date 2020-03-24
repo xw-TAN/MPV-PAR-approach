@@ -47,10 +47,10 @@ NOTE AGAIN: Stair ascent and stair descent were performed alternately and repeat
 ```
   ├── PhaseVariableData/
     ├── S1/     # 1st subject
-      ├── TIME_levelwalk-70/    # raw datasets for level walk activity performed at 70 steps/min
-      ├── TIME_levelwalk-110/ 
-      ├── TIME_stair-70/        # raw datasets for stair ascent and stair descent activities 
-      └── TIME_stair-110/
+    │  ├── TIME_levelwalk-70/    # raw datasets for level walk activity performed at 70 steps/min
+    │  ├── TIME_levelwalk-110/ 
+    │  ├── TIME_stair-70/        # raw datasets for stair ascent and stair descent activities 
+    │  └── TIME_stair-110/
     │...
     └── S8/
 ```
@@ -72,6 +72,6 @@ NOTE AGAIN: Stair ascent and stair descent were performed alternately and repeat
 ```
 
 ## How to cite
-If you have employed our datasets or customized in your research, please cite the followings:
+If you have employed our datasets or customized Matlab scripts in your research, please cite the followings:
 
 (to be updated)
