@@ -4,7 +4,7 @@ MPV (Modified Phase-Variable-Based) PAR (Physical Activity Recognition) approach
 # Introduction
 This repositary contains Matlab scripts for a method used to classify three types of human physical activities, termed as MPV. MPV is an extension or modification version for original PV method (proposed paper title "A Phase Variable Approach for IMU-Based Locomotion Activity Recognition") which has also been coded in Matlab by ourselves and uploaded into this repositary. Needing to note here is that the coded PV script is NOT provided by the original paper. Although we try hard to replicate the original PV method with Matlab, there may be some small details we have not yet found and coded.
 
-Detailed explanation for MPV method will be found when our paper has been accepted and published.
+Detailed explanation for MPV method will be found when our paper has been accepted and published (paper title to be updated).
 
 # Matlab Scripts
 - `generateExemplarPhaseCurves.m`
