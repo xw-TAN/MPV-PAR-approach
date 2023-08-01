@@ -74,4 +74,4 @@ NOTE AGAIN: Stair ascent and stair descent were performed alternately and repeat
 ## How to cite
 If you have employed our datasets or customized Matlab scripts in your research, please cite the followings:
 
-(to be updated)
+Tan X, Zhang B, Liu G, Zhao X, Zhao Y. Phase variable based recognition of human locomotor activities across diverse gait patterns. IEEE Transactions on Human-Machine Systems. 2021 Sep 13;51(6):684-95.
